@@ -1,14 +1,12 @@
 package com.cc.java;
 
-import java.lang.reflect.Array;
-
 public class App {
     
     public static void main(String[] args) {
         // Kontoeröffnung
-        Konto konto1 = new Konto (10000);
-        Konto konto2 = new Konto (10000);
-        Konto konto3 = new Konto (10000);
+        Konto konto1 = new Konto ();
+        Konto konto2 = new Konto ();
+        Konto konto3 = new Konto ();
 
         
         // Output Kontostand 

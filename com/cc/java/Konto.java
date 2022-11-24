@@ -5,10 +5,10 @@ public class Konto{
     private int kontostand = 10000;
 
     
-
-    public Konto(int kontostand) {
-        this.kontostand = kontostand;
-    }
+// Constructor nur wenn in App etwas eingefügt werden soll
+    // public Konto(int kontostand) {
+    //     this.kontostand = kontostand;
+    // }
 
     public int getKontostand() {
         return kontostand;
